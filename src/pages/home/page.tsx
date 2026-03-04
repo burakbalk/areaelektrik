@@ -31,11 +31,15 @@ export default function HomePage() {
         <div className="absolute inset-0 overflow-hidden">
           <img
             src="/images/hero-home.webp"
+            srcSet="/images/hero-home-mobile.webp 768w, /images/hero-home.webp 1024w"
+            sizes="100vw"
             alt="Elektrik Sistemleri"
             className="w-full h-full object-cover object-top opacity-25"
             loading="eager"
             fetchPriority="high"
             decoding="async"
+            width={1024}
+            height={1024}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60"></div>
         </div>
