@@ -9,7 +9,7 @@ export default function ContactPage() {
       <section className="relative py-12 md:py-20" style={{ backgroundColor: '#1a1a1a' }}>
         <div className="absolute inset-0 overflow-hidden opacity-10">
           <img
-            src="https://readdy.ai/api/search-image?query=professional%20office%20contact%20customer%20service%20modern%20workspace%20communication%20business%20environment&width=1920&height=600&seq=contacthero1&orientation=landscape"
+            src="/images/hero-contact-bg.webp"
             alt="İletişim"
             className="w-full h-full object-cover"
             loading="lazy"

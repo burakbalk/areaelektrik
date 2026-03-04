@@ -27,7 +27,7 @@ export default function ServicesPage() {
       <section className="relative py-12 md:py-20" style={{ backgroundColor: '#1a1a1a' }}>
         <div className="absolute inset-0 overflow-hidden opacity-10">
           <img
-            src="https://readdy.ai/api/search-image?query=electrical%20services%20technical%20background%20with%20circuit%20patterns%20and%20modern%20electrical%20equipment%20abstract%20professional%20design%20clean%20organized%20layout&width=1920&height=600&seq=servhero1&orientation=landscape"
+            src="/images/hero-services-bg.webp"
             alt="Hizmetler"
             className="w-full h-full object-cover"
             loading="lazy"

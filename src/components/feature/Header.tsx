@@ -32,9 +32,11 @@ export default function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <img
-              src="https://static.readdy.ai/image/f7a5d02425e0675ec2bf06c3a77d9570/e61c1ac28d4e8b1464c369fa1e02a647.png"
+              src="/images/logo.webp"
               alt="Area Elektrik Logo"
               className="h-10 md:h-12 w-auto"
+              loading="eager"
+              decoding="async"
             />
           </Link>
 

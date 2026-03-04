@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://areaelektrik.vercel.app/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://areaelektrik.vercel.app/hakkimizda</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://areaelektrik.vercel.app/hizmetler</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://areaelektrik.vercel.app/hizmetler/elektrik-taahhut-hizmetleri</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://areaelektrik.vercel.app/hizmetler/proje-hizmetleri</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://areaelektrik.vercel.app/hizmetler/isletme-ve-bakim-hizmetleri</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://areaelektrik.vercel.app/hizmetler/test-ve-olcum-hizmetleri</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://areaelektrik.vercel.app/hizmetler/uzaktan-sayac-sensor-okuma-sistemi</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://areaelektrik.vercel.app/hizmetler/ip-analog-kamera-sistemleri</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://areaelektrik.vercel.app/hizmetler/ip-santral-sistemleri</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://areaelektrik.vercel.app/hizmetler/hirsiz-ve-yangin-alarm-sistemleri</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://areaelektrik.vercel.app/hizmetler/danismanlik-hizmetleri</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://areaelektrik.vercel.app/projeler</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://areaelektrik.vercel.app/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://areaelektrik.vercel.app/blog/elektrik-tesisatinda-guvenlik-onlemleri</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://areaelektrik.vercel.app/blog/akilli-ev-sistemleri-ve-otomasyon</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://areaelektrik.vercel.app/blog/enerji-tasarrufu-icin-ipuclari</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://areaelektrik.vercel.app/blog/guvenlik-kamera-sistemleri-secimi</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://areaelektrik.vercel.app/blog/yangin-alarm-sistemleri</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://areaelektrik.vercel.app/blog/elektrik-pano-bakimi</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://areaelektrik.vercel.app/iletisim</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+</urlset>

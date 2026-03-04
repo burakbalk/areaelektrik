@@ -30,7 +30,7 @@ export default function HomePage() {
       <section className="relative min-h-screen flex items-center pt-16 md:pt-20" style={{ backgroundColor: '#1a1a1a' }}>
         <div className="absolute inset-0 overflow-hidden">
           <img
-            src="https://static.readdy.ai/image/f7a5d02425e0675ec2bf06c3a77d9570/9ebc5ab639cf5e692bb8c322dc8df331.png"
+            src="/images/hero-home.webp"
             alt="Elektrik Sistemleri"
             className="w-full h-full object-cover object-top opacity-25"
             loading="eager"
@@ -252,7 +252,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 rounded-3xl overflow-hidden shadow-2xl">
             <div className="relative min-h-[250px] md:min-h-[400px] lg:min-h-[500px]">
               <img
-                src="https://readdy.ai/api/search-image?query=professional%20electrical%20engineering%20team%20working%20together%20on%20electrical%20installation%20project%20with%20safety%20equipment%20and%20modern%20tools%20in%20bright%20clean%20industrial%20workspace%20teamwork%20collaboration%20atmosphere&width=800&height=800&seq=cta1&orientation=squarish"
+                src="/images/hero-cta.webp"
                 alt="Profesyonel Ekip"
                 className="absolute inset-0 w-full h-full object-cover"
                 loading="lazy"

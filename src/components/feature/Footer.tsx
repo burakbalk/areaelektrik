@@ -28,9 +28,11 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-2 lg:col-span-1">
             <div className="mb-4 md:mb-6">
               <img
-                src="https://static.readdy.ai/image/f7a5d02425e0675ec2bf06c3a77d9570/e61c1ac28d4e8b1464c369fa1e02a647.png"
+                src="/images/logo.webp"
                 alt="Area Elektrik Logo"
                 className="h-10 md:h-12 w-auto brightness-0 invert"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <p className="text-gray-400 text-xs md:text-sm leading-relaxed mb-4 md:mb-6">
