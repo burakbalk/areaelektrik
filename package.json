@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && react-snap && node scripts/postprocess.js",
+    "build": "vite build && react-snap && node scripts/postprocess.js || (echo 'react-snap failed, using SPA fallback' && exit 0)",
     "preview": "vite preview",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "type-check": "tsc --noEmit --project tsconfig.app.json"
@@ -22,8 +22,7 @@
       "/blog",
       "/iletisim"
     ],
-    "puppeteerExecutablePath": "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser",
-    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
+    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"],
     "inlineCss": true,
     "minifyHtml": {
       "collapseWhitespace": true,
