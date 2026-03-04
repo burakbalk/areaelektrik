@@ -1,22 +1,11 @@
-import { useEffect, useState } from 'react';
-
 const whatsappMessage = encodeURIComponent(
   'Merhaba, areaelektrik.com web siteniz üzerinden yazıyorum.'
 );
 const whatsappLink = `https://wa.me/905336429211?text=${whatsappMessage}`;
 
 export default function FloatingButtons() {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setIsVisible(true), 1000);
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (!isVisible) return null;
-
   return (
-    <div className="fixed bottom-4 right-4 z-40 flex flex-col gap-2">
+    <div className="fixed bottom-4 right-4 z-40 flex flex-col gap-2" style={{ animation: 'fadeIn 0.5s ease 1s both' }}>
       <a
         href={whatsappLink}
         target="_blank"

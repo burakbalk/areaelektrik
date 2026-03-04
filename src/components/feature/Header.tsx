@@ -37,6 +37,8 @@ export default function Header() {
               className="h-10 md:h-12 w-auto"
               loading="eager"
               decoding="async"
+              width={328}
+              height={112}
             />
           </Link>
 

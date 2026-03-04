@@ -33,6 +33,8 @@ export default function Footer() {
                 className="h-10 md:h-12 w-auto brightness-0 invert"
                 loading="lazy"
                 decoding="async"
+                width={328}
+                height={112}
               />
             </div>
             <p className="text-gray-400 text-xs md:text-sm leading-relaxed mb-4 md:mb-6">
