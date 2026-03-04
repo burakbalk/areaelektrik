@@ -12,6 +12,8 @@ export default function BlogPage() {
             src="https://readdy.ai/api/search-image?query=electrical%20engineering%20blog%20articles%20technical%20writing%20modern%20office%20workspace%20with%20documents%20and%20laptop%20professional%20atmosphere&width=1920&height=600&seq=bloghero1&orientation=landscape"
             alt="Blog"
             className="w-full h-full object-cover"
+            loading="lazy"
+            decoding="async"
           />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -38,6 +40,8 @@ export default function BlogPage() {
                     src={blog.image}
                     alt={blog.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
                 <div className="p-4 md:p-6">

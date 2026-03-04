@@ -12,6 +12,8 @@ export default function ContactPage() {
             src="https://readdy.ai/api/search-image?query=professional%20office%20contact%20customer%20service%20modern%20workspace%20communication%20business%20environment&width=1920&height=600&seq=contacthero1&orientation=landscape"
             alt="İletişim"
             className="w-full h-full object-cover"
+            loading="lazy"
+            decoding="async"
           />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

@@ -30,6 +30,8 @@ export default function BlogDetailPage() {
             src={blog.image}
             alt={blog.title}
             className="w-full h-full object-cover"
+            loading="lazy"
+            decoding="async"
           />
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-[#1a2332] to-transparent"></div>
@@ -62,6 +64,8 @@ export default function BlogDetailPage() {
               src={blog.image}
               alt={blog.title}
               className="w-full h-64 md:h-96 object-cover"
+              loading="lazy"
+              decoding="async"
             />
           </div>
 
@@ -124,6 +128,8 @@ export default function BlogDetailPage() {
                     src={item.image}
                     alt={item.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
                 <div className="p-4 md:p-6">

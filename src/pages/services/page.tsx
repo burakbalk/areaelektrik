@@ -30,6 +30,8 @@ export default function ServicesPage() {
             src="https://readdy.ai/api/search-image?query=electrical%20services%20technical%20background%20with%20circuit%20patterns%20and%20modern%20electrical%20equipment%20abstract%20professional%20design%20clean%20organized%20layout&width=1920&height=600&seq=servhero1&orientation=landscape"
             alt="Hizmetler"
             className="w-full h-full object-cover"
+            loading="lazy"
+            decoding="async"
           />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -56,6 +58,8 @@ export default function ServicesPage() {
                     src={service.image}
                     alt={service.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
                 <div className="p-3 md:p-5">

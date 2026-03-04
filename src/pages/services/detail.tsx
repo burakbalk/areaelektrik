@@ -57,7 +57,7 @@ export default function ServiceDetailPage() {
       {/* Hero Section */}
       <section className="relative py-12 md:py-20" style={{ backgroundColor: '#1a1a1a' }}>
         <div className="absolute inset-0 overflow-hidden opacity-30">
-          <img src={service.image} alt={service.title} className="w-full h-full object-cover" />
+          <img src={service.image} alt={service.title} className="w-full h-full object-cover" loading="eager" fetchPriority="high" decoding="async" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -81,7 +81,7 @@ export default function ServiceDetailPage() {
             {/* Main Content */}
             <div className="lg:col-span-2">
               <div className="rounded-2xl overflow-hidden shadow-lg mb-8">
-                <img src={service.image} alt={service.title} className="w-full h-64 md:h-80 object-cover" />
+                <img src={service.image} alt={service.title} className="w-full h-64 md:h-80 object-cover" loading="lazy" decoding="async" />
               </div>
 
               <h2 className="text-2xl md:text-3xl font-bold mb-6" style={{ color: '#1a1a1a' }}>Hizmet Detayları</h2>
@@ -178,7 +178,7 @@ export default function ServiceDetailPage() {
                 style={{ backgroundColor: '#ffffff', borderColor: '#e8e0d4' }}
               >
                 <div className="aspect-[16/10] overflow-hidden">
-                  <img src={item.image} alt={item.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                  <img src={item.image} alt={item.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" decoding="async" />
                 </div>
                 <div className="p-3 md:p-5">
                   <div className="w-10 h-10 rounded-xl flex items-center justify-center mb-2 transition-colors" style={{ backgroundColor: 'rgba(212,184,150,0.2)' }}>

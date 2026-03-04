@@ -12,6 +12,8 @@ export default function AboutPage() {
             src="https://readdy.ai/api/search-image?query=professional%20electrical%20engineering%20team%20company%20building%20modern%20corporate%20office%20clean%20professional%20atmosphere&width=1920&height=600&seq=abouthero1&orientation=landscape"
             alt="Hakkımızda"
             className="w-full h-full object-cover"
+            loading="lazy"
+            decoding="async"
           />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -70,6 +72,8 @@ export default function AboutPage() {
                   src="https://readdy.ai/api/search-image?query=professional%20electrical%20engineering%20team%20working%20together%20in%20modern%20office%20with%20electrical%20equipment%20and%20technical%20drawings%20collaborative%20work%20environment%20clean%20organized%20workspace&width=800&height=600&seq=about1&orientation=landscape"
                   alt="Area Elektrik Ekibi"
                   className="w-full h-full object-cover"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 rounded-2xl p-6 shadow-xl max-w-xs" style={{ backgroundColor: '#d4b896' }}>

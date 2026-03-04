@@ -33,6 +33,9 @@ export default function HomePage() {
             src="https://static.readdy.ai/image/f7a5d02425e0675ec2bf06c3a77d9570/9ebc5ab639cf5e692bb8c322dc8df331.png"
             alt="Elektrik Sistemleri"
             className="w-full h-full object-cover object-top opacity-25"
+            loading="eager"
+            fetchPriority="high"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60"></div>
         </div>
@@ -121,6 +124,8 @@ export default function HomePage() {
                     src={service.image}
                     alt={service.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
                 <div className="p-3 md:p-5">
@@ -250,6 +255,8 @@ export default function HomePage() {
                 src="https://readdy.ai/api/search-image?query=professional%20electrical%20engineering%20team%20working%20together%20on%20electrical%20installation%20project%20with%20safety%20equipment%20and%20modern%20tools%20in%20bright%20clean%20industrial%20workspace%20teamwork%20collaboration%20atmosphere&width=800&height=800&seq=cta1&orientation=squarish"
                 alt="Profesyonel Ekip"
                 className="absolute inset-0 w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
               <div className="absolute top-4 md:top-6 left-4 md:left-6">
